@@ -1,0 +1,42 @@
+{
+  "name": "keeper-app",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@babel/plugin-transform-private-methods": "7.24.7",
+    "@babel/preset-env": "7.25.0",
+    "@radix-ui/react-tooltip": "1.1.2",
+    "@react-pdf/renderer": "^3.4.4",
+    "@types/customize-cra": "1.0.8",
+    "framer-motion": "^11.3.21",
+    "react": "^18.2.0",
+    "react-app-rewired": "2.2.1",
+    "react-dom": "^18.2.0",
+    "react-icons": "5.2.1",
+    "react-pdf": "9.1.0",
+    "react-router-dom": "6.25.1",
+    "react-scripts": "^5.0.0",
+    "react-simple-typewriter": "5.0.1",
+    "react-tooltip": "5.27.1",
+    "react-transition-group": "4.4.5",
+    "swiper": "11.1.5",
+    "tslib": "2.6.3"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "vite": "^5.2.0"
+  }
+}
