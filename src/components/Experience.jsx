@@ -4,7 +4,7 @@ import Card from "./Card";
 function Experience() {
   var experience = {
     title: "Experience",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis id ducimus adipisci voluptatem dignissimos cumque! Enim porro in culpa autem molestiae praesentium expedita officiis reiciendis minima laborum. Tempora, beatae architecto!",
+    desc: "Here is a summary of my professional experience, highlighting roles and achievements in different positions over the years.",
     items: [
       {
         id: 1,

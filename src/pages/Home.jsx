@@ -6,7 +6,10 @@ import Button from "../components/Button";
 import { Typewriter } from "react-simple-typewriter";
 import { motion } from "framer-motion"
 import StairTransition from "../components/StairTransition"
-
+import About from "./About";
+import Project from "./Project";
+import Resume from "./Resume";
+import Footer from "../components/Footer";
 
 function Home() {
   var words = [
@@ -16,12 +19,12 @@ function Home() {
   ];
 
   var info = [
-    { id: 1, text: "My Work", link: "#" },
+    { id: 1, text: "My Work", link: "/project" },
     { id: 2, text: "Contact Me", link: "mailto:godwinolekanma12@gmail.com" },
   ];
 
   return (
-    <section>
+    <>
       <Header />
       <main className="container">
         <section className="flex-container">
@@ -54,9 +57,13 @@ function Home() {
           </div>
           <Profile />
         </section>
+        {/* <About />
+        <Project />
+        <Resume /> */}
         <ContactButtons />
       </main>
-    </section>
+      {/* <Footer /> */}
+    </>
   );
 }
 

@@ -12,7 +12,7 @@ function Resume() {
   return (
     <div>
       <Header />
-      <main className="container">
+      <main className="container" style={{paddingTop: "0"}}>
         <div className="resume-container about-button">
           <button onClick={handleClick}>Download CV</button>
           <PdfViewer />

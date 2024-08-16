@@ -7,7 +7,7 @@ function NavItems(props) {
       <li>
         {/* <a href="/home">Home</a> */}
         <NavLink
-          to="/"
+          to="/home"
           className={({ isActive }) => (isActive ? "active" : "null")}
         >
           Home

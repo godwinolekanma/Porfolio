@@ -38,12 +38,13 @@ function About() {
     <div>
       <Header />
       <main className="container">
+      <h1>njnd</h1>
         <section className="flex-container">
           <div className="main-content" id="section-width">
             <h1>
               Why <span style={{ color: "#83b4ff" }}>Hire Me</span>
             </h1>
-            <p>
+            <p className="desc">
               Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
               recusandae veritatis illum maxime quibusdam odio accusantium
             </p>

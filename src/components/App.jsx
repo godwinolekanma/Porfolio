@@ -4,6 +4,7 @@ import Home from "../pages/Home";
 import About from "../pages/About";
 import Project from "../pages/Project";
 import Resume from "../pages/Resume";
+import Footer from "./Footer";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
           <Route path="/resume" element={<Resume />} />
         </Routes>
       </BrowserRouter>
+      <Footer />
     </div>
   );
 }

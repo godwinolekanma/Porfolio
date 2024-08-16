@@ -4,7 +4,7 @@ import Card from "./Card";
 var education = {
   id: 1,
   title: "Education",
-  desc: "Lorem ipsum dolor sit amet, consectetur adipisicing elit. Unde praesentium ipsa debitis laudantium! Perspiciatis impedit tempore deserunt necessitatibus. Alias quos sint suscipit magni asperiores dignissimos, voluptate autem vero facere cupiditate.",
+  desc:  "My education includes a combination of formal degrees and online certifications that have equipped me with a solid foundation in computer science and specialized skills in full-stack development and programming.",
   items: [
     {
       year: "2024",
