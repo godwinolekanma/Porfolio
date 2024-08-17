@@ -27,7 +27,7 @@ function Header(props) {
       <PageTransition/>
       <StairTransition />
       <nav className="nav-bar container">
-        <a href="/home" id="logo">
+        <a href="/" id="logo">
           Godwin.
         </a>
         <NavItems />

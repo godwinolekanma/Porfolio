@@ -5,7 +5,7 @@ function CardItems(props) {
   return (
     <div className="card-item">
       <div>
-        <p>{item.year}</p>
+        <p style={{marginTop: "0"}}>{item.year}</p>
         <h2 style={{ margin: "0" }}>{item.title}</h2>
       </div>
       <ul>

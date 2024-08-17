@@ -33,7 +33,16 @@ function Project() {
       id: 3,
       name: "Embrace Your Journey",
       desc: "Developed Embrace Your Journey, a life coaching website utilizing subscription models for access to personalized coaching services. Integrated secure payment systems to manage subscriptions and deliver tailored coaching plans.",
-      tech: ["JavaScript,", "Html5,", "CSS3,"],
+      tech: ["JavaScript,", "Html5,", "CSS3"],
+      live: "https://embraceyourjourney.thinkific.com/",
+      git: "https://github.com/godwinolekanma/Embrace-Your-Journey",
+      Image:embraceBg,
+    },
+    {
+      id: 4,
+      name: "ISS Tracker",
+      desc: "Developed a Python-based program that tracks the International Space Station (ISS) in real-time using RESTful APIs. The program fetches live data, including the ISS's current position and upcoming visible passes based on the user’s location",
+      tech: ["Python,", "RESTful API"],
       live: "https://embraceyourjourney.thinkific.com/",
       git: "https://github.com/godwinolekanma/Embrace-Your-Journey",
       Image:embraceBg,
@@ -51,7 +60,7 @@ function Project() {
       <main className="container">
         <div className="flex-container">
           <div className="project-content">
-            <h1 style={{ fontSize: "82px", margin: "0" }}>0{project.id}</h1>
+            <h1 style={{ fontSize: "82px", margin: "0" }} className="blue trans">0{project.id}</h1>
             <h2
               style={{
                 fontSize: "42px",

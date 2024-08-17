@@ -75,7 +75,7 @@ function Skills() {
       <h1>
         My <span style={{ color: "#83b4ff" }}>{skills.title}</span>
       </h1>
-      <p style={{ width: "500px" }}>{skills.desc}</p>
+      <p className="desc">{skills.desc}</p>
       <ul className="icon-list">
         {skills.items.map((item, index) => {
           return (
