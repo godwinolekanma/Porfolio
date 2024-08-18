@@ -82,11 +82,8 @@ function Project() {
             <hr />
             <div className="tag" style={{ justifyContent: "start" }}>
             {project.live && <a href={project.live} target="_blank">
-                <i className="bx bx-link" style={{ fontSize: "30px" }}></i>
+                <i className="bx bx-link-external" style={{ fontSize: "30px" }}></i>
               </a>}
-              {/* <a href={project.live} target="_blank">
-                <i className="bx bx-link" style={{ fontSize: "30px" }}></i>
-              </a> */}
               <a href={project.git} target="_blank">
                 <i className="bx bxl-github" style={{ fontSize: "30px" }}></i>
               </a>
