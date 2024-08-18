@@ -43,8 +43,8 @@ function Project() {
       name: "ISS Tracker",
       desc: "Developed a Python-based program that tracks the International Space Station (ISS) in real-time using RESTful APIs. The program fetches live data, including the ISS's current position and upcoming visible passes based on the user’s location",
       tech: ["Python,", "RESTful API"],
-      live: "https://embraceyourjourney.thinkific.com/",
-      git: "https://github.com/godwinolekanma/Embrace-Your-Journey",
+      // live: "https://embraceyourjourney.thinkific.com/",
+      git: "https://github.com/godwinolekanma/ISS-TRACKER",
       Image:embraceBg,
     },
   ];
@@ -81,9 +81,12 @@ function Project() {
             </ul>
             <hr />
             <div className="tag" style={{ justifyContent: "start" }}>
-              <a href={project.live} target="_blank">
+            {project.live && <a href={project.live} target="_blank">
                 <i className="bx bx-link" style={{ fontSize: "30px" }}></i>
-              </a>
+              </a>}
+              {/* <a href={project.live} target="_blank">
+                <i className="bx bx-link" style={{ fontSize: "30px" }}></i>
+              </a> */}
               <a href={project.git} target="_blank">
                 <i className="bx bxl-github" style={{ fontSize: "30px" }}></i>
               </a>
