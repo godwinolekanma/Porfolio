@@ -3,6 +3,7 @@ import Header from "../components/Header";
 import Education from "../components/Education";
 import Experience from "../components/Experience";
 import Skills from "../components/Skills";
+import Profile from "../components/Profile";
 
 
 
@@ -38,7 +39,15 @@ function About() {
     <div>
       <Header />
       <main className="container">
-      <h1>njnd</h1>
+      <div className="flex-container">
+      <div>
+      <h1>About Me</h1>
+      <p style={{fontSize: "22px", textAlign: "justify"}}>
+      Hi, I am Godwin Olekanma a seasoned Senior Software Engineer with a passion for building scalable and efficient applications. With over 6 years of experience in leading and delivering large-scale distributed systems and enterprise CRM/CSM/SaaS solutions, I excel in cloud-native and Java expertise, Microservices architecture, and technical leadership.
+      </p>
+      </div>
+        <Profile />
+      </div>
         <section className="flex-container">
           <div className="main-content" id="section-width">
             <h1>

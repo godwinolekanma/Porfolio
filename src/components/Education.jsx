@@ -7,21 +7,21 @@ var education = {
   desc:  "My education includes a combination of formal degrees and online certifications that have equipped me with a solid foundation in computer science and specialized skills in full-stack development and programming.",
   items: [
     {
-      year: "2024",
+      year: "Spring 2024",
       title: "Computer Science Degree",
       platform: "Wichita State Univerity",
     },
     {
-      year: "2023",
+      year: "Spring 2023",
       title: "FullStack Developer Course (JavaScript, Node, React)",
       platform: "Udemy",
     },
     {
-      year: "2022",
+      year: "Fall 2022",
       title: "Python Developer BootCamp (Python, Flask)",
       platform: "Udemy",
     },
-    { year: "2019", title: "C++ Developer BootCamp", platform: "Udemy" },
+    { year: "Fall 2019", title: "C++ Developer BootCamp", platform: "Udemy" },
   ],
 };
 

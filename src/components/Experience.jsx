@@ -20,6 +20,12 @@ function Experience() {
       },
       {
         id: 3,
+        year: "Fall 2022",
+        title: "Modiefied Realty Group",
+        platform: "Freelance WD",
+      },
+      {
+        id: 4,
         year: "2017-2019",
         title: "IT Support",
         platform: "LeoFlinch Inc",
