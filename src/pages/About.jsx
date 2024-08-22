@@ -45,8 +45,7 @@ function About() {
               Why <span style={{ color: "#83b4ff" }}>Hire Me</span>
             </h1>
             <p className="desc">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sint
-              recusandae veritatis illum maxime quibusdam odio accusantium
+               I offer strong software development skills, a track record of enhancing user experiences, and a dedication to delivering high-quality results.
             </p>
             <div className="about-button">
               <button
