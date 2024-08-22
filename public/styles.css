@@ -658,10 +658,9 @@ header {
 }
 
 .project-image{
-  min-height: 400px; 
-  max-height: 400px;
+  min-height: 350px; 
+  max-height: 350px;
   width: 100%;
-
 }
 
 .project-title{
