@@ -45,13 +45,7 @@ function Home() {
               </h3>
             </div>
             <p>
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua.
-              Imperdiet proin fermentum leo vel. Metus dictum at tempor commodo
-              ullamcorper a lacus vestibulum. Porttitor eget dolor morbi non
-              arcu risus quis varius quam. Amet commodo nulla facilisi nullam
-              vehicula ipsum a arcu. Neque convallis a cras semper auctor. Vitae
-              tortor condimentum lacinia quis vel eros donec ac.
+                      I am a passionate software developer with experience in creating dynamic web applications and tools. My journey has led me to work on projects that enhance user experiences and drive efficiency. I thrive on solving complex problems and collaborating with teams to bring innovative ideas to life. Whether it's building a responsive UI or optimizing backend functionality, I'm dedicated to delivering high-quality solutions.
             </p>
             <Button items={info} />
           </div>
