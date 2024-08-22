@@ -7,6 +7,7 @@ import drinkSite from "../assets/drinkbg.png";
 import movieBg from "../assets/Moviebg.png"
 import embraceBg from "../assets/embrace.png"
 import iss from "../assets/ISS.jpg"
+import portImage from "../assets/portImage.png"
 
 import "swiper/css";
 
@@ -28,7 +29,7 @@ function Project() {
       tech: ["Python,", "Flask,", "SQLAlchemy"],
       live: "https://my-movie-library.onrender.com/",
       git: "https://github.com/godwinolekanma/movie-library",
-      Image:movieBg
+      Image: movieBg
     },
     {
       id: 3,
@@ -37,7 +38,7 @@ function Project() {
       tech: ["JavaScript,", "Html5,", "CSS3"],
       live: "https://embraceyourjourney.thinkific.com/",
       git: "https://github.com/godwinolekanma/Embrace-Your-Journey",
-      Image:embraceBg,
+      Image: embraceBg,
     },
     {
       id: 4,
@@ -46,16 +47,16 @@ function Project() {
       tech: ["Python,", "RESTful API"],
       // live: "https://embraceyourjourney.thinkific.com/",
       git: "https://github.com/godwinolekanma/ISS-TRACKER",
-      Image:iss,
+      Image: iss,
     },
     {
       id: 5,
-      name: "Porfolio",
+      name: "My Porfolio",
       desc: "",
       tech: ["Reactjs,", "Html5", "CSS3", "Vite"],
       live: "https://godwinolekanma.onrender.com",
       git: "https://github.com/godwinolekanma/Porfolio",
-      Image:iss,
+      Image: portImage,
     },
   ];
   var [project, setProject] = useState(projects[0]);
