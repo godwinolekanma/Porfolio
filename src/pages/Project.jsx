@@ -48,6 +48,15 @@ function Project() {
       git: "https://github.com/godwinolekanma/ISS-TRACKER",
       Image:iss,
     },
+    {
+      id: 5,
+      name: "Porfolio",
+      desc: "",
+      tech: ["Reactjs,", "Html5", "CSS3", "Vite"],
+      live: "https://godwinolekanma.onrender.com",
+      git: "https://github.com/godwinolekanma/Porfolio",
+      Image:iss,
+    },
   ];
   var [project, setProject] = useState(projects[0]);
 
