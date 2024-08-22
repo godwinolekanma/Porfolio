@@ -18,7 +18,7 @@ import {
 function Skills() {
   var skills = {
     title: "Skills",
-    desc: "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis id ducimus adipisci voluptatem dignissimos cumque! Enim porro in culpa autem molestiae praesentium expedita officiis reiciendis minima laborum. Tempora, beatae architecto!",
+    desc: "I am proficient in various programming languages and frameworks, allowing me to build efficient web applications that meet user needs.",
     items: [
       {
         name: "Python",
