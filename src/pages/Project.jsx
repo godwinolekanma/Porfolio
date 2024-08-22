@@ -6,7 +6,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import drinkSite from "../assets/drinkbg.png";
 import movieBg from "../assets/Moviebg.png"
 import embraceBg from "../assets/embrace.png"
-import iss from "../assets/ISS.jpg"
+import iss from "../assets/ISS.png"
 import portImage from "../assets/portImage.png"
 
 import "swiper/css";
