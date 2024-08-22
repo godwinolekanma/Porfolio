@@ -53,7 +53,7 @@ function Project() {
       id: 5,
       name: "My Porfolio",
       desc: "Developed and deployed a live, responsive portfolio website using React.js, showcasing skills and experience with dynamic state management, React Router for seamless navigation, and optimized performance techniques, effectively highlighting projects and professional achievements in a visually appealing and interactive manner across all devices. ",
-      tech: ["Reactjs,", "Html5", "CSS3", "Vite"],
+      tech: ["Reactjs,", "Html5,", "CSS3,", "Vitejs"],
       live: "https://godwinolekanma.onrender.com",
       git: "https://github.com/godwinolekanma/Porfolio",
       Image: portImage,
