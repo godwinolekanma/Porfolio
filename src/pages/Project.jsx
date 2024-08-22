@@ -46,7 +46,7 @@ function Project() {
       tech: ["Python,", "RESTful API"],
       // live: "https://embraceyourjourney.thinkific.com/",
       git: "https://github.com/godwinolekanma/ISS-TRACKER",
-      Image:embraceBg,
+      Image:iss,
     },
   ];
   var [project, setProject] = useState(projects[0]);
