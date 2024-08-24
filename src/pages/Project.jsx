@@ -26,7 +26,7 @@ function Project() {
       id: 2,
       name: "Movie Tracker",
       desc: "Created FilmTracker, a movie tracking website where users can rate and review films. Utilized a robust database to manage movie data and user interactions, and implemented secure login features for personalized experiences",
-      tech: ["Python,", "Flask,", "SQLAlchemy"],
+      tech: ["Python,", "Flask,", "Bootstarp,", "SQLAlchemy"],
       live: "https://my-movie-library.onrender.com/",
       git: "https://github.com/godwinolekanma/movie-library",
       Image: movieBg
